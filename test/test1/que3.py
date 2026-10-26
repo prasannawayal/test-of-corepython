@@ -1,0 +1,5 @@
+k = int(input('enter a kilometer'))
+meter = (k*1000)
+centimeter = (k*100000)
+print('Distance in meter',meter)
+print('Distance in centimetr',centimeter)

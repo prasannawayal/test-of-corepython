@@ -1,0 +1,5 @@
+pri = int(input ('enter principal amount:'))
+ti = int(input('enter time:'))
+rat = float(input('enter rate of intrest:'))
+simple_int = ((pri*ti*rat)/100)
+print(f'simple intrest:{simple_int}')

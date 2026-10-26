@@ -1,0 +1,7 @@
+l = float(input('enter the length'))
+b = float(input('enter the breadth'))
+r = float(input('enter the radius'))
+area = (l*b)+(3.14*r*r/2)
+perimeter = l + (2*l)+(3.14*r)
+print('area of figure',area)
+print('perimeter of figure:',perimeter)
